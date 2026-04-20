@@ -266,12 +266,12 @@ public class ConverterFrame extends JFrame {
 
         boolean decimalToBinary = decimalToBinaryRadio.isSelected();
         if (decimalToBinary && !ConverterService.isValidDecimal(input)) {
-            showError("Decimal input must contain digits only (optional leading -). ");
+            showError("Decimal input must be a valid number (example: 25, -7, 0.4). ");
             return;
         }
 
         if (!decimalToBinary && !ConverterService.isValidBinary(input)) {
-            showError("Binary input must contain only 0 and 1 (optional leading -). ");
+            showError("Binary input must contain only 0/1 with optional point (example: 101, -10.01). ");
             return;
         }
 
