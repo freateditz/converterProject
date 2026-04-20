@@ -1,0 +1,1 @@
+2026-04-20 21:53:20 | Name: vivek        | Age: 20  | Mode: Decimal to Binary   | In: 3                        | Out: 11
